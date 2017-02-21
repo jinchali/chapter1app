@@ -34,13 +34,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C58CC1A41E5CEFCB003AB9E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
 		C59AE68B1E328437000B2CCC /* Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59AE68E1E328437000B2CCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C59AE6901E328437000B2CCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C59AE6931E328438000B2CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C59AE6951E328438000B2CCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C59AE6981E328438000B2CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C59AE69A1E328439000B2CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C59AE69F1E328439000B2CCC /* QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59AE6A31E328439000B2CCC /* QuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTests.swift; sourceTree = "<group>"; };
 		C59AE6A51E32843A000B2CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 				C59AE6921E328438000B2CCC /* Main.storyboard */,
 				C59AE6951E328438000B2CCC /* Assets.xcassets */,
 				C59AE6971E328438000B2CCC /* LaunchScreen.storyboard */,
-				C59AE69A1E328439000B2CCC /* Info.plist */,
+				C58CC1A51E5CEFCB003AB9E3 /* Info.plist */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -296,6 +296,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		C58CC1A51E5CEFCB003AB9E3 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C58CC1A41E5CEFCB003AB9E3 /* Base */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
 		C59AE6921E328438000B2CCC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -505,6 +513,7 @@
 				C59AE6B51E32843B000B2CCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C59AE6B61E32843B000B2CCC /* Build configuration list for PBXNativeTarget "QuizTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				C59AE6B81E32843B000B2CCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C59AE6B91E32843B000B2CCC /* Build configuration list for PBXNativeTarget "QuizUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				C59AE6BB1E32843B000B2CCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
